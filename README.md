@@ -22,3 +22,7 @@ client.images('baka') // baka, cry, cuddle, happy, hug, kiss, sad, wag
     .then(data => { ... }) // data: { url: 'https://cdn.neppedcord.top/content/baka/baka_038.gif' }
     .catch(console.error);
 ```
+
+## Теги картинок
+SAFE Тэги: baka, cry, cuddle, happy, hug, kiss, sad, wag
+NSFW Тэги...?
