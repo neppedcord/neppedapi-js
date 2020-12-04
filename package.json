@@ -1,0 +1,25 @@
+{
+    "name": "neppedapi",
+    "description": "Node.js SDK для работы с NeppedAPI",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": {
+        "name": "vlfz",
+        "url": "https://sqdsh.top"
+    },
+    
+    "license": "MIT",
+    "keywords": [
+      "neppedcord",
+      "neppedapi",
+      "neppedapi-js"
+    ],
+    "homepage": "https://github.com/neppedcord/neppedapi-js#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neppedcord/neppedapi-js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/neppedcord/neppedapi-js/issues"
+    }
+}
