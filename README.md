@@ -24,5 +24,6 @@ client.images('baka') // baka, cry, cuddle, happy, hug, kiss, sad, wag
 ```
 
 ## Теги картинок
-SAFE Тэги: baka, cry, cuddle, happy, hug, kiss, sad, wag
-NSFW Тэги...?
+SAFE Тэги: baka, cry, cuddle, happy, hug, kiss, sad, wag.
+Так-же будут и другие тэги: five, poke, slap, punch, dance, feed, smug, pat.
+
