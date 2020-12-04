@@ -7,6 +7,7 @@ Node.js SDK для работы с NeppedAPI
 $ git clone https://github.com/neppedcord/neppedapi-js.git
 # Или.. просто скачайте папку с GitHub.
 ```
+(или вы можете склонироовать **neppedapi-js** в папку node_modules и тогда вы просто сможете его использовать как модуль)
 2. Интегрируйте SDK в свой проект
 ```js
 let token = "***"; // Токен разработчика (получить можно тут - https://api-docs.neppedcord.top/start/auth)
@@ -14,6 +15,7 @@ let token = "***"; // Токен разработчика (получить мо
 const NeppedSDK = require('./neppedapi-js/index.js');
 const client = new NeppedSDK(token);
 ```
+(Если вы вложили **neppedapi-js** в папку модулей, то нужно ввести `require('neppedapi-js')`)
 
 ## Использование
 ```js
