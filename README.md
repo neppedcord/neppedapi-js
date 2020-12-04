@@ -2,8 +2,7 @@
 Node.js SDK для работы с NeppedAPI
 
 ## Установка
-1. Склонируйте **neppedapi-js** в папку своего проекта 
-(или вы можете склонироовать **neppedapi-js** в папку node_modules и тогда вы просто сможете его использовать как модуль)
+1. Склонируйте **neppedapi-js** в папку **node_modules** своего проекта 
 ```bash
 $ git clone https://github.com/neppedcord/neppedapi-js.git
 # Или.. просто скачайте папку с GitHub.
@@ -12,10 +11,9 @@ $ git clone https://github.com/neppedcord/neppedapi-js.git
 ```js
 let token = "***"; // Токен разработчика (получить можно тут - https://api-docs.neppedcord.top/start/auth)
 
-const NeppedSDK = require('./neppedapi-js/index.js');
+const NeppedSDK = require('neppedapi-js');
 const client = new NeppedSDK(token);
 ```
-(Если вы вложили **neppedapi-js** в папку модулей, то нужно ввести `require('neppedapi-js')`)
 
 ## Использование
 ```js
@@ -25,7 +23,8 @@ client.images('baka') // baka, cry, cuddle, happy, hug, kiss, sad, wag
     .catch(console.error);
 ```
 
-## Теги картинок
-SAFE Тэги: baka, cry, cuddle, happy, hug, kiss, sad, wag.
+## Images API: Типы картинок
+SFW: baka, cry, cuddle, happy, hug, kiss, sad, wag.
+
 Так-же будут и другие тэги: five, poke, slap, punch, dance, feed, smug, pat.
 
