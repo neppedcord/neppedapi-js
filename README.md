@@ -24,7 +24,6 @@ client.images('baka') // baka, cry, cuddle, happy, hug, kiss, sad, wag
 ```
 
 ## Images API: Типы картинок
-SFW: baka, cry, cuddle, dance, happy, hug, kiss, pat, poke, sad, smug, wag.
+SFW: baka, cry, cuddle, happy, hug, kiss, sad, wag.
 
-Так-же будут и другие тэги: five, poke, slap, punch, feed.
-
+Так-же будут и другие тэги: five, poke, slap, punch, dance, feed, smug, pat.
