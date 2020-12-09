@@ -3,7 +3,7 @@
 const
     utils = require('./util'),
     paths = { hostname: "neppedcord.top" },
-    imagesTypes = ['baka', 'cry', 'cuddle', 'happy', 'hug', 'kiss', 'sad', 'wag'];
+    imagesTypes = ['baka', 'cry', 'cuddle', 'happy', 'hug', 'kiss', 'sad', 'wag', 'pat', 'poke', 'dance', 'smug'];
 
 module.exports = function (token) {
 	if(!token) return new ReferenceError("[neppedapi-js] Не указан API ключ!");
