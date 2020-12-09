@@ -29,4 +29,28 @@ module.exports = function (token) {
         return utils.request(options(`/images/${type}`))
             .then((r) => r).catch((e) => e);
 	};
+
+	this.sharp = {
+		check: (id) => {
+			if(!id)
+				return console.error(`[neppedapi-js] Не указан ID для проверки!`);
+
+			return utils.request(options(`/sharp/user/${id}`))
+				.then((r) => r).catch((e) => e);
+		},
+		ban: (id, body = { reason: null, image: null }) => {
+			if(!id)
+				return console.error(`[neppedapi-js] Не указан ID для блокировки!`);
+
+			return utils.request(options(`/sharp/user/${id}/ban`, "POST", body))
+				.then((r) => r).catch((e) => e);
+		},
+		unban: (id) => {
+			if(!id)
+				return console.error(`[neppedapi-js] Не указан ID для разблокировки!`);
+
+			return utils.request(options(`/sharp/user/${id}/unban`, "DELETE"))
+				.then((r) => r).catch((e) => e);
+		}
+	};
 };
