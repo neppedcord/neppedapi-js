@@ -2,7 +2,7 @@
 
 const
     utils = require('./util'),
-    paths = { hostname: "neppedcord.top" },
+    paths = { hostname: "api.neppedcord.top" },
     imagesTypes = ['baka', 'cry', 'cuddle', 'happy', 'hug', 'kiss', 'sad', 'wag', 'pat', 'poke', 'dance', 'smug'];
 
 module.exports = function (token) {
@@ -14,7 +14,7 @@ module.exports = function (token) {
 		let toRequest = {
 			method: method,
 			hostname: paths.hostname,
-			path: "/api" + uri,
+			path: uri,
 			headers: { 'Authorization': token }
 		};
 		
