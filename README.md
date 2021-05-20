@@ -1,5 +1,5 @@
 # neppedapi-js
-Node.js SDK для работы с NeppedAPI
+Node.js SDK для работы с NeppedAPI.
 
 ## Установка
 1. Установите пакет **neppedapi-js** с помощью **NPM** (также должен быть установлен **Git**)
