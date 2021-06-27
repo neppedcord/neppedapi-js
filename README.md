@@ -1,7 +1,11 @@
 ![img](https://cdn.discordapp.com/attachments/762217988451074069/858831788453134356/neppedapi.png)
 
-# neppedapi-js
-Node.js SDK для работы с NeppedAPI
+# NeppedAPI
+NeppedAPI Это простой API для поставки картинок по разным категориям а так же простой инструмент для работы с глобальным черным списком
+
+# Требования для работы пакета
+**Версия Node.JS должна быть [v14.15.1 или выше](https://nodejs.org/en/)**
+**Вам нужен [git-scm](http://git-scm.com/)**
 
 ## Установка
 1. Установите пакет **neppedapi-js** с помощью **NPM** (также должен быть установлен **Git**)
