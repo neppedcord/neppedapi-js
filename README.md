@@ -1,4 +1,4 @@
-![img](https://cdn.discordapp.com/attachments/762217988451074069/858707725017415680/neppedapi.png)
+![img](https://cdn.discordapp.com/attachments/762217988451074069/858831788453134356/neppedapi.png)
 
 # neppedapi-js
 Node.js SDK для работы с NeppedAPI
